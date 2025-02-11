@@ -9,6 +9,7 @@ public class FigureMain {
 		
 		Rectangle r= new Rectangle(10,20);
 		
+		//RTTI
 		ref=t;
 		System.out.println("Area of Triangle = "+ref.area());
 		
