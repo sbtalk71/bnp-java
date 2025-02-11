@@ -15,4 +15,9 @@ public class Employee extends Person{
 		
 		return id+" "+name+" "+salary;
 	}
+	
+	
+	public void getInfo() {
+		System.out.println("This is Employee Class");
+	}
 }
