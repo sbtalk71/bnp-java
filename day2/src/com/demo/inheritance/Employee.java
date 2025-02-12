@@ -20,4 +20,6 @@ public class Employee extends Person{
 	public void getInfo() {
 		System.out.println("This is Employee Class");
 	}
+	
+	
 }

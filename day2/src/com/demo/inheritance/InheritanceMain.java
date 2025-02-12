@@ -26,6 +26,15 @@ public class InheritanceMain {
 		
 		System.out.println(p.getDetails());
 		
+		if(p instanceof Employee) {
+			Employee e2=(Employee)p;
+			
+		}
+		
+		
+		Employee emp2=(Employee)new Person(100, "Ramon");
+		
+		//emp2.getDetails();
 		//------------------------------//
 		
 		printDetails(emp);

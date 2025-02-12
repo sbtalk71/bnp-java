@@ -20,8 +20,13 @@ public String duckDetails() {
 }
 
 static {
-	System.out.println("Static block execites..");
+	System.out.println("Static block executes..");
 }
+
+{
+	System.out.println("Object Initializer executes..");
+}
+
 
 public static void mystaticMethod() {
 	System.out.println("Static Method..");
