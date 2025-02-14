@@ -6,4 +6,7 @@ public interface MyDBDriver {
 	
 	String getConnection();
 	String getDbDetails();
+	default String getTxSupport() {
+		throw new IllegalArgumentException("not implemented");
+	};
 }
